@@ -1,24 +1,36 @@
-.navbar-brand{
+/* top most section*/
+
+/* this is to set the look of brand name which is "tindog" */
+.navbar-brand{  
     color:#f8f9fa;
     font-weight: bold;
     font-size: 2rem;
     font-family:"ubuntu";
 }
+
+/* this is to set the look of "contact, pricing, download" */
 .nav-link{
     color:#dee2e6;
     font-family:"Montserrat";
 }
+
+/* this is to set the look of "toggler button which comes into use when we're changing the screen size to tablet or 
+phone" */
 .navbar-toggler{
     background-color: #f8f9fa;
 }
+
+/* this is to add padding to the whole upper section(till end of the dog pic)  */
 .container-fluid{
     padding: 1% 13% 7%;
 }
 
+/* to set the color of the top most section(till end of the dog pic) */
 #title{
     background-color:#ff4c68;
 }
 
+/* to rotate and resize the dog in an iphone pic */
 .iphone{
     transform: rotate(25deg);
     width:60%;
@@ -26,10 +38,12 @@
     right: 30%;
 }
 
+/* this was mandatory to make the image cut from bottom  */
 .title-image-container{
     position: relative;
 }
 
+/* this is to style every "h1"  */
 h1{
     font-family:"Montserrat";
     color:#f8f9fa;
@@ -37,33 +51,49 @@ h1{
     font-size: 3.5rem;
     line-height: 1.5;
 }
+
+/* row is a bootstrap class which provides us to fit two or more elements in a row and as the h1 of the top most section and iphone pic 
+are the two elements in a row which should have padding between them and a little style so the below lines are for the same */
 .row{
     padding-top: 5%;
     font-family:"Montserrat";
 }
+
+/* to add padding each item of the navigation bar */
 .nav-item{
     padding: 0 18px;
 }
 
+/* to add margin between both download buttons  */
 .download-button{
     margin: 5% 3% 5% 0;
 }
+
+/* from here features section starts */
 #features{
     padding: 7% 15%;  
     background-color: #fff;
     position: relative;
 }
+
+/* to bring that those three elements of features in center alignment and to add padding between them */
 .ICON{
     padding:5%;
     text-align: center;
 }
+
+/* to style h3 */
 h3{
     font-family: "Montserrat"; 
     font-weight: bold;
 }
+
+/* to style paragrapgh tag */
 p{
     color:#8f8f8f;
 }
+
+/* to style those three emojees of heart, bullseye & check-circle */
 .icon{
     color:#ef8172;
     margin-bottom:1rem;
@@ -72,6 +102,7 @@ p{
     color:#ff4c68;
 }
 
+/* to style h2 */
 h2{
   font-family: "Monserrat";
   font-weight: bold;
@@ -79,31 +110,39 @@ h2{
   font-size: 3rem;
 }
 
+/* testimonials section starts from here */
 #testimonials{
     background-color: #ef8172;
     text-align: center;
     color:#fff;
 }
 
+/* to style the dog and woman image */
 .testimonial-img{
     width:10%;
     border-radius: 100%;
     margin: 20px;
 }
 
+/* this is to stle the logos provided in the end of testimonial section */
 #press{
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
 }
 
+/* to style the logo icons */
 .press-icon{
     width:15%;
     margin: 20px 20px 50px;
 }
+
+/* this carousel is for the slide buttons  */
 .carousel-item{
     padding: 7% 20%;
 }
+
+/* pricing section starts from here */
 .pricing-card{
     margin: auto;
     width: 350px;
@@ -113,6 +152,8 @@ h2{
     padding: 100px;
 }
 
+/* this is a setup like if and else which means 'media@' helps to set a condition like here we're saying that the iphone image should turn back
+to zero degrees if the screen size turns smaller than 1028px which was 25 degrees slant earlier */
 @media (max-width: 1028px) {
     #title{
         text-align: center;
@@ -137,6 +178,7 @@ h2{
     font-size: 3rem;
 }
 
+/* to style the footer section */
 #footer{
     text-align: center;
     background-color:#fff;

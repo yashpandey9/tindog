@@ -145,6 +145,7 @@ h2{
 /* pricing section starts from here */
 .pricing-card{
     margin: auto;
+    margin-bottom: 30px;
     width: 350px;
 }
 #pricing{
